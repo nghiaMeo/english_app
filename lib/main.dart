@@ -1,5 +1,5 @@
 import 'package:english_app/packages/qoute.dart';
-import 'package:english_app/pages/home_page.dart';
+import 'package:english_app/pages/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const LandingPage(),
     );
   }
 }
